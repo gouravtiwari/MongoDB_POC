@@ -1,0 +1,19 @@
+
+
+***********************************************************************
+Fatal NI connect error 12545, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=dev-oragridvip-ux02)(PORT=1560))(LOAD_BALANCE=no)(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=client_clientut.world)(FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=180)(DELAY=5))(CID=(PROGRAM=C:\oraclexe\app\oracle\product\10.2.0\server\bin\sqlplus.exe)(HOST=FIR000057610008)(USER=Gourav?Tiwari))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 26-JAN-2011 19:17:27
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12545
+    TNS-12545: Connect failed because target host or object does not exist
+    ns secondary err code: 12560
+    nt main err code: 515
+    TNS-00515: Connect failed because target host or object does not exist
+    nt secondary err code: 1001
+    nt OS err code: 0
